@@ -1,0 +1,7 @@
+<plugin> 
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-war-plugin</artifactId>
+<configuration>
+<webXml>src\main\webapp\index.html</webXml> (mention which page to start)
+</configuration>
+</plugin>  
